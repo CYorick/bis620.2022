@@ -22,7 +22,8 @@ Yongzhuo Chen(yc896)
 Ruiqiu Zhang(rz345)
 
 ## 1. Description of The Data
-We will be using the panitumumab clinical trial data. We will be studying whether age, sex, race, geographic region, KRAS status, Eastern Coorperative Oncology Group Performance Status affect death outcome. Knowing this would help with predicting death.
+https://clinicaltrials.gov/ct2/show/NCT00364013?term=NCT00364013&draw=2&rank=1
+The panitumumab clinical trial data is used in this project. The dataset includes experimental: FOLFOX + Panitumumab and active comparator: FOLFOX and corresponding results. The biomarker and baseline characteristics of patients are also included, such as  age, sex, race, geographic region, KRAS status, Eastern Coorperative Oncology Group Performance Status. These would be analyzed, figuring out whether these characterics affect death outcome and whether treatment would have better result on different patients. The analysis result of this project  would help with predicting death and  reducing the use of treatments which might be less effective in the future.
 
 ## 2. Motivation
 According to the Precision Medicine Initiative, precision medicine is "an emerging approach for disease treatment and prevention that takes into account individual variability in genes, environment, and lifestyle for each person." This approach will allow doctors and researchers to predict more accurately which treatment and prevention strategies for a particular disease will work in which groups of people.
@@ -131,3 +132,6 @@ From the results showed in the console, we can see that the p value is 0.5. This
 Form the viewer panel we get after running the function, we know that 186 females are in the control group, 170 females are in the treatment group, 281 males are in the control group and 298 males are in the treatment group. 
 
 The p value is 0.6, which is pretty large. This indicates that there is no significant different between females and males. In other words, patients of different sexes do not differ much in terms of survival probability. 
+
+## 5.Conclusion
+As for the death outcome, only biomark, age and height are related to death result statistically significantly, with p-values < 0.05, while treatment does not. However, this does not mean that the treatment protocol is not effective for this disease. Dividing patients in different group with differnet KRAS, age, sex, or biomarker, it is shown that the treatment will not make any difference on different age or sex, while the treatment Panitumumab + FOLFOX would have better result on patients with "Wild-type" KRAS or "Mutant" KRAS.
